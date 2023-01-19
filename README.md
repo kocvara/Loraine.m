@@ -10,11 +10,11 @@ Loraine is a general-purpose solver for any linear SDP with linear equality and 
     
 - to indicate that the input data matrices are all expected to be of rank one. Then their decomposition to a vector-vector product can be automatically computed by Loraine.
 
-To solve a problem from the database, identify the problem name in "rloraine.m". To solve a problem in SDPA input file, uncomment the corresponding part in "rloraine.m" and identify the name of your *.dat-s file.
+To solve a problem from the database, identify the problem name in `rloraine.m`. To solve a problem in SDPA input file, uncomment the corresponding part in `rloraine.m` and identify the name of your `*.dat-s` file.
 
 Then, in MATLAB environment, run
   
-\>> rloraine
+`>> rloraine`
 
 Loraine was developed by Soodeh Habibi and Michal Kocvara, University of Birmingham, and Michael Stingl, University of Erlangen, for H2020 ITN POEMA
 and is distributed under the GNU General Public License 3.0. For commercial applications that may be incompatible with this license, please contact the authors to discuss alternatives. 
